@@ -1,0 +1,24 @@
+:root{
+    --main-white: #f0f0f0;
+    --main-gray: #303841;
+}
+html{
+  font-size: 10px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+section.heading{
+  background-color: var(--main-gray);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1{
+  color: var(--main-white) ;
+  font-size: 10rem;
+  font-family: 'Charm', cursive;
+}
